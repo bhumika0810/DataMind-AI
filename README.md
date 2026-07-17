@@ -154,7 +154,11 @@ frontend/index.html
 
 # 📸 Screenshots
 
-(Add your screenshots here)
+<img width="1470" height="803" alt="Screenshot 2026-07-17 at 8 31 58 PM" src="https://github.com/user-attachments/assets/414417cd-62e8-43e6-9d47-e3e4f08bcd34" />
+<img width="1470" height="802" alt="Screenshot 2026-07-17 at 8 33 25 PM" src="https://github.com/user-attachments/assets/cacc7c22-20d2-4730-a6f0-51deb10ac457" />
+<img width="1470" height="805" alt="Screenshot 2026-07-17 at 8 33 04 PM" src="https://github.com/user-attachments/assets/5194f7f2-4ad0-4124-9d32-43e02e73991d" />
+
+
 
 ---
 
