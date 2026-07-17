@@ -14,7 +14,7 @@ An AI-powered full-stack analytics platform that enables users to upload dataset
 # 🌐 Live Links
 
 ### Frontend
-**https://YOUR-VERCEL-LINK.vercel.app**
+https://data-mind-ai-beryl.vercel.app/
 
 ### Backend API
 https://datamind-ai-0jk7.onrender.com
