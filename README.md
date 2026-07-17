@@ -1,81 +1,135 @@
 # 🚀 DataMind AI
 
-An AI-powered data analytics platform that allows users to upload datasets, analyze them using natural language, generate summaries, visualize insights, and connect relational databases—all from a modern web interface.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![JavaScript](https://img.shields.io/badge/JavaScript-Frontend-yellow)
+![HTML5](https://img.shields.io/badge/HTML5-Frontend-orange)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-blue)
+![License](https://img.shields.io/badge/License-MIT-red)
+
+An AI-powered full-stack analytics platform that enables users to upload datasets, connect databases, query data using natural language, generate AI-powered insights, visualize analytics, and explore structured data through an intuitive web interface.
 
 ---
 
-## 🌐 Live Demo
+# 🌐 Live Links
 
-Frontend:
-https://YOUR-VERCEL-LINK.vercel.app
+### Frontend
+**https://YOUR-VERCEL-LINK.vercel.app**
 
-Backend API:
+### Backend API
 https://datamind-ai-0jk7.onrender.com
 
-API Documentation:
+### API Documentation
 https://datamind-ai-0jk7.onrender.com/docs
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 - 📂 Upload CSV and Excel datasets
-- 🤖 Ask questions in natural language
-- 📊 Automatic data profiling
-- 📈 Interactive charts
-- 🧠 AI-generated summaries
-- 📑 Dataset schema detection
-- 💬 AI-powered analytics
-- 🗄 Database connectivity (MySQL support)
+- 🤖 AI-powered natural language querying
+- 📊 Automated dataset profiling
+- 📈 Interactive charts and visualizations
+- 🧠 AI-generated executive summaries
+- 📑 Schema detection and metadata extraction
+- 🗄 MySQL database integration
 - 📜 Query history
-- ⚡ FastAPI backend
-- 🎨 Responsive frontend
+- ⚡ REST APIs built using FastAPI
+- 🎨 Responsive modern dashboard
 
 ---
 
-## 🛠 Tech Stack
+# 🏗 Architecture
 
-### Frontend
-- HTML
-- CSS
+```
+                Frontend
+       (HTML • CSS • JavaScript)
+                     │
+                     ▼
+             FastAPI Backend
+                     │
+     ┌───────────────┼───────────────┐
+     ▼               ▼               ▼
+ Dataset Upload   AI Processing   Database
+    (CSV)        (OpenAI APIs)   Integration
+     │               │               │
+     └───────────────┼───────────────┘
+                     ▼
+      Charts • Insights • Summaries
+```
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- HTML5
+- CSS3
 - JavaScript
 
-### Backend
-- FastAPI
+## Backend
+
 - Python
+- FastAPI
 - Pandas
 - OpenAI API
 - MySQL Connector
 - Matplotlib
 
-### Deployment
+## Deployment
 
 - Vercel
 - Render
 
 ---
 
-## 📂 Project Structure
+# 📡 REST APIs
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | `/api/csv/upload` | Upload datasets |
+| GET | `/api/csv/files` | List uploaded datasets |
+| GET | `/api/csv/{id}/read` | Read dataset |
+| GET | `/api/csv/{id}/meta` | Dataset metadata |
+| GET | `/api/csv/{id}/schema` | AI schema generation |
+| POST | `/api/ai/query` | Natural language queries |
+| POST | `/api/database/tables` | Connect database |
+
+---
+
+# 📂 Project Structure
 
 ```
 DataMind-AI
 │
-├── frontend
-├── backend
-├── uploads
-├── services
-├── routes
+├── frontend/
+│
+├── backend/
+│   ├── routes/
+│   ├── services/
+│   ├── uploads/
+│   ├── main.py
+│   └── requirements.txt
+│
 ├── README.md
+└── .gitignore
 ```
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
 Clone the repository
 
 ```bash
 git clone https://github.com/bhumika0810/DataMind-AI.git
+```
+
+Move into the project
+
+```bash
+cd DataMind-AI/backend
 ```
 
 Install dependencies
@@ -84,13 +138,13 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Run backend
+Run the backend
 
 ```bash
 uvicorn main:app --reload
 ```
 
-Open frontend
+Open the frontend
 
 ```
 frontend/index.html
@@ -98,32 +152,56 @@ frontend/index.html
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-<img width="1470" height="803" alt="Screenshot 2026-07-17 at 2 56 37 PM" src="https://github.com/user-attachments/assets/b7643aee-3916-49e1-b4e5-36cebcdb21b2" />
-<img width="1470" height="802" alt="Screenshot 2026-07-17 at 2 57 23 PM" src="https://github.com/user-attachments/assets/ce0c7feb-428e-4c9e-a08c-7b8be8ae51d2" />
-<img width="1470" height="802" alt="Screenshot 2026-07-17 at 2 58 40 PM" src="https://github.com/user-attachments/assets/d09988e7-e4ec-420c-ad1d-216f61ff7db5" />
-<img width="1469" height="802" alt="Screenshot 2026-07-17 at 2 59 05 PM" src="https://github.com/user-attachments/assets/632e3fb1-3068-4f68-960d-b324cd3d7818" />
-
+(Add your screenshots here)
 
 ---
 
-## 🔮 Future Enhancements
+# 📌 Skills Demonstrated
 
-- Authentication
-- Multi-user workspace
-- More database connectors
-- Team collaboration
-- Dashboard customization
-- Cloud storage support
+- Full Stack Development
+- REST API Development
+- AI Integration
+- FastAPI
+- Data Analytics
+- Data Visualization
+- Database Connectivity
+- Frontend Development
+- Backend Development
+- API Deployment
 
 ---
 
-## 👩‍💻 Author
+# ⚠ Notes
+
+- Backend is deployed on Render.
+- Frontend is deployed on Vercel.
+- Database connectivity requires an accessible MySQL server (local or cloud-hosted) for successful connection.
+
+---
+
+# 🔮 Future Enhancements
+
+- User Authentication
+- Team Collaboration
+- PostgreSQL Support
+- MongoDB Support
+- Cloud Storage Integration
+- Dashboard Customization
+- Role-Based Access Control
+- Dataset Sharing
+
+---
+
+# 👩‍💻 Author
 
 **Bhumika Singh**
 
-VIT Vellore
+B.Tech CSE, VIT Vellore
 
-GitHub:
-https://github.com/bhumika0810
+GitHub: https://github.com/bhumika0810
+
+---
+
+## ⭐ If you found this project interesting, consider giving it a star!
